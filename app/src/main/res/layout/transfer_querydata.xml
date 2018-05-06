@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/general"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayout1_transferquery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1">
+                    <TableRow
+                        android:id="@+id/tableRow_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Enquiry Type"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transenq"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow1_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv1_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Name"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transname"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow7_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv7_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Gender"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transgender"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv4_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="D.O.B."
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transdob"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow2_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv2_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:textColor="#000000"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Email Id"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transemail"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow11_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv11_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="City"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transcity"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow3_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv3_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Contact No."
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transcontact"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+
+
+                    <TableRow
+                        android:id="@+id/tableRow5_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv5_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Aadhaar Card Number"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transoutstandblnc"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Pan Card Number"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/pancard_viewtrans"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Outstanding Loan Amount "
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/outstandloan_tenure"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow6_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv6_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Existing Loan Start"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transloanstart"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow9_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv9_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Interest Rate"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transinterestrate"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow10_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv10_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Existing Loan Bank"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transloanbank"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow12_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv12_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Gross Monthly Income"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transgross"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow13_transferquery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv13_transferquery"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Net Income"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/transincome"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                    </TableRow>
+
+                </TableLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

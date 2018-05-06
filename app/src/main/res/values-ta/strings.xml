@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cashiya</string>
+    <string name="general">General Information</string>
+    <string name="typeOfProperty">Type Of Property</string>
+    <string name="PropertyAdress">Property Adress</string>
+    <string name="resale">Resale</string>
+    <string name="Builder">Builder</string>
+    <string name="UnderConstruction">Under Construction</string>
+    <string name="readyToMove">Ready To Move</string>
+    <string name="Verified">Verified</string>
+    <string name="Unverified">Unverified</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="action_settings">Settings</string>
+    <string name="InvestmentPlaning">முதலீட்டு திட்டம்</string>
+    <string name="FirstName">முதல் பெயர்</string>
+    <string name="LastName">கடந்த பெயர்</string>
+    <string name="Salaried">ஊதியம் பெறும்</string>
+    <string name="CurrentlyEmployedas">தற்போது வேலை</string>
+    <string name="CompanyName">நிறுவனத்தின் பெயர்</string>
+    <string name="SelfEmployed">சுயதொழில்</string>
+    <string name="Position">நிலையை</string>
+    <string name="TypeOfCompany">நிறுவனத்தின் வகை</string>
+    <string name="CompanyAddress">நிறுவனத்தின் முகவரி</string>
+    <string name="Address">முகவரி வரி </string>
+    <string name="Address1">முகவரி வரி 1</string>
+    <string name="State">நிலை</string>
+    <string name="City">நகரம்</string>
+    <string name="YourMoney">உங்கள் பணம்</string>
+
+    <string name="AllPaymentAndRecharge">அனைத்து செலுத்தும் மற்றும் ரீசார்ஜ்</string>
+
+    <string name="Loan">கடன்</string>
+    <string name="LoanTransFer">கடன் பரிமாற்ற</string>
+    <string name="Insurance">காப்பீடு</string>
+    <string name="Selectthetypeofloan">கடன் வகை தேர்வு</string>
+    <string name="MaritalStatus">திருமண நிலை</string>
+    <string name="Single">ஒற்றை</string>
+    <string name="AadhaarCardNumber">ஆதார் அட்டை எண்</string>
+    <string name="Married">திருமணம்</string>
+    <string name="PanCardNumber">பான் கார்டு எண்</string>
+    <string name="DOB">"பிறந்த தேதி"</string>
+    <string name="CurrentAddress">தற்போதைய முகவரி</string>
+    <string name="PinCode">அஞ்சல் குறியீடு</string>
+    <string name="Male">ஆண்</string>
+    <string name="Gender">பாலினம்</string>
+    <string name="Female">ஆண்</string>
+    <string name="ResidenceType">வதிவிடம் வகை</string>
+    <string name="Rented">வாடகைக்கு</string>
+    <string name="Owned">உரிமை உள்ளது</string>
+    <string name="IfPermanentAdressisSameAs">என்றால் நிரந்தர Adress தற்போதைய முகவரியும் ஒன்று தான்:</string>
+    <string name="Yes">ஆம்</string>
+    <string name="No">இல்லை</string>
+    <string name="PermanentAddress">நிரந்தர முகவரி</string>
+    <string name="Proceed">தொடர</string>
+    <string name="JoiningDateWithCurrentCompany">தற்போதைய நிறுவனம் தேதி சேர</string>
+    <string name="JoiningDate">சேர்ந்த தேதி</string>
+    <string name="TotalExperience">மொத்த அனுபவம்</string>
+    <string name="Year">ஆண்டு</string>
+    <string name="Month">"மாதம்"</string>
+    <string name="AnyProof">எந்த ஆதாரமும்</string>
+    <string name="SalarySlip">சம்பளம் சீட்டு</string>
+    <string name="AccountStatement">கணக்கு அறிக்கை</string>
+    <string name="CompanyEstablishedDate">நிறுவனம் ஸ்தாபனத்தின் தேதி</string>
+    <string name="ITR">ஆகாஷ்</string>
+    <string name="RegistrationCertificate">பதிவு சான்றிதழ்</string>
+    <string name="PanCard">பான் கார்டு</string>
+    <string name="Qualification">தகுதி</string>
+    <string name="MonthlyIncome">மாத வருமானம்</string>
+    <string name="AccountType">கணக்கு வகை</string>
+    <string name="HaveContinuityofbusiness">வணிக தொடர்ச்சி வேண்டும்?</string>
+    <string name="HaveYoutakenLoaninPast">நீங்கள் கடந்த காலத்தில் கடன் பெற்றிருந்தால்?</string>
+    <string name="FromWhere">எங்கிருந்து</string>
+    <string name="Amount">தொகை</string>
+    <string name="LoanTenure">கடனை அடைப்பதற்கான</string>
+    <string name="EMIDOYOUTOPAY">எவ்வளவு இஎம்ஐ நீங்கள் செலுத்த DO</string>
+    <string name="Current">தற்போதைய</string>
+    <string name="Permanent">நிரந்தர</string>
+    <string name="Office">அலுவலகம்</string>
+    <string name="Submit">சமர்ப்பிக்கவும்</string>
+
+    <string name="Email">மின்னஞ்சல்</string>
+
+    <string name="MobileNo.">மொபைல் எண்</string>
+
+
+    <string name="AddMoney">பணம் சேர்க்க</string>
+    <string name="AddIncome">வருமான சேர்</string>
+    <string name="MyTarget">என் இலக்கு</string>
+
+
+
+    <string name="LoanBalanceTransfer">கடன் சமநிலை பரிமாற்ற</string>
+    <string name="ExistingLoanStart">கடன் தொடக்க இருக்கும்</string>
+    <string name="Foregddmmyyyy">எ.கா.. DD / MM / YYYY</string>
+    <string name="OutstandingAmount">நிலுவையில் உள்ள தொகை</string>
+    <string name="InterestRatintermso">வட்டி விகிதம் (% அடிப்படையில்)</string>
+    <string name="ExistingLoanBank">கடன் வங்கி இருக்கும்</string>
+    <string name="GrossMonthlyIncome">மொத்த மாத வருமானம்</string>
+    <string name="NetIncome">நிகர வருமானம்</string>
+    <string name="Name">பெயர்</string>
+    <string name="EnterPhoneNumber">தொலைபேசி எண் உள்ளிடவும்</string>
+
+    <string name="banking_partners"><![CDATA[<< வங்கி பங்காளிகள் >>]]></string>
+    <string name="insurance_partners"><![CDATA[<< காப்பீடு பங்காளிகள் >>]]></string>
+    <string name="how_long_do_you_want_to_borrow_for_in_months">நீங்கள் எவ்வளவு நேரம் கடன் வாங்க வேண்டும்? (மாதங்களில்)</string>
+</resources>
+

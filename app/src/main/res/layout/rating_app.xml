@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#4DD0E1"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate Us On PlayStore..."
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/rate_now"
+                android:text="Rate Now"
+                android:onClick="onClickRateNow"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="#4DD0E1"
+                android:background="#ffffff"
+                android:layout_marginRight="5dp" />
+
+            <Button
+                android:id="@+id/never_reminder"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="#4DD0E1"
+                android:background="#ffffff"
+                android:onClick="onClickNeverReminder"
+                android:text="Remind me Later"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

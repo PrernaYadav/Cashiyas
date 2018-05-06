@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/general"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1">
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/FirstName"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvname"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="name">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Email Id"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvmail"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="email">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Contact No"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvcontact"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="contact">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow109"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView109"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="DOB"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvdob"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="DOB">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Monthly Income"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvincome_loan"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="income">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow116"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView126"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Bank Account Type"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_bank_account_type"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/AccountType">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Bank account"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvaccount"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="salary account">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Residence"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvresidence"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="city">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow10"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Employment"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvemployment"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="employment">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow791"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView912"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Pan Card No."
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvpan"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="pan">
+
+                        </TextView>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow191"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView212"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="AdharCard No."
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvadhar"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="adharcardno">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Gender"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtGender"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Gender">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/ResidenceType"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtResidenceType"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/ResidenceType">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Address Proof"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtAddressProof"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Address Proof">
+
+                        </TextView>
+
+                    </TableRow>
+
+                </TableLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtLaonType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Loan Details"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayout2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:stretchColumns="0,1">
+
+
+                    <TableRow
+                        android:id="@+id/tableRow6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Loan Type"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvloan"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="loan type"/>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow161"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView161"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Subcatory of Loan "
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvsubcategory"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Subcatory of Loan"/>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text=" Loan Amount"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvloanamount"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="amount">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Time Period"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvtime"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="time">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Loan Tenure"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/viewhaveloan_tenure"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="loan type"/>
+
+                    </TableRow>
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Loan Replacement"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvhaveloan_satus"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="yes">
+
+                        </TextView>
+
+                    </TableRow>
+
+
+                </TableLayout>
+            </LinearLayout>
+            ///////////////////////////////////////emi////////////////////////////////
+
+            <LinearLayout
+                android:id="@+id/view_haveloanlay_emi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1">
+
+                    <!--<TableRow-->
+
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--&gt;-->
+
+                    <!--<TextView-->
+
+                    <!--android:layout_column="0"-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:text="Pay Emi"-->
+                    <!--android:paddingLeft="7dp"-->
+                    <!--android:background="@drawable/cell_shape"-->
+                    <!--android:textColor="#000000"-->
+                    <!--&gt;-->
+
+                    <!--</TextView>-->
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/pay_emiview"-->
+                    <!--android:layout_column="1"-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:paddingLeft="7dp"-->
+                    <!--android:background="@drawable/cell_shape"-->
+                    <!--android:text="yes"-->
+                    <!--&gt;-->
+
+                    <!--</TextView>-->
+
+                    <!--</TableRow>-->
+
+                    <TableRow
+                        android:id="@+id/tableRow19"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Emi Amount"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_tvemi"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="emi">
+
+                        </TextView>
+
+                    </TableRow>
+
+                </TableLayout>
+            </LinearLayout>
+
+            /////////////////////////////have loan////////////////////////////////////////
+
+            <LinearLayout
+                android:id="@+id/view_haveloanlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1"
+                    android:visibility="gone">
+
+                    <TableRow
+                        android:id="@+id/tableRow18"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Have Loan"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvhaveloan"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="yes">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="From Where"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/viewhaveloan_where"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="loan type"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Amount"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/viewhaveloan_amnt"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="loan type"/>
+
+                    </TableRow>
+
+                </TableLayout>
+            </LinearLayout>
+            /////////////////////////////////////////////////////////////////////
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ID's and Proofs"
+                    android:textColor="@color/primary"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TableLayout
+                    android:id="@+id/tableLayout3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1">
+
+                    <TableRow
+                        android:id="@+id/tableRow11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Id Proof"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvid"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="yes">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Address Proof"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvaddprf"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="yes">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow13"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Income Proof"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvincomprf"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="yes">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow14"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Office Add. Proof"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvofcadprf"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="yes">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow15"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Bank Statements"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvbankstat"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="yes">
+
+                        </TextView>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow16"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Ownership Office"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvowner"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="yes">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow17"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Business Continuity"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvbusncon"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="yes">
+
+                        </TextView>
+
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/CurrentAddress"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayoutCurrentAddress"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:stretchColumns="0,1">
+
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Address"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtAddress"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Address">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Address1"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtAddress1"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Address1">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/State"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtState"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/State">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/City"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtCity"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/City">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/PinCode"
+                            android:textColor="#000000">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtPincode"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/PinCode">
+
+                        </TextView>
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/PermanentAddress"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayoutPermanentAddress"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1">
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Address"
+                            android:textColor="#000000">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtPermanentAddress"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Address">
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Address1"
+                            android:textColor="#000000">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtPermanentAddress1"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Address1">
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/State"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtPermanentState"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/State">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/City"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtPermanentCity"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/City">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/PinCode"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtPermanentAddressPincode"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/PinCode">
+                        </TextView>
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Employee Details"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayoutCompanyAddress"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1">
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/CurrentlyEmployedas"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtCurrentEmployee"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/CurrentlyEmployedas"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/CompanyName"
+                            android:textColor="#000000"
+                            android:visibility="gone">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/txtCompanyName"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/CompanyName"
+                            android:visibility="gone">
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/CompanyName"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_companyname"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/CompanyName">
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Position"
+                            android:textColor="#000000">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtPosition"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/Position">
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Salary Mode"
+                            android:textColor="#000000">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtSalaryMode"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="salary mode">
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/CompanyAddress"
+                            android:textColor="#000000">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtCompanyAddress"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/CompanyAddress">
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Company Address1"
+                            android:textColor="#000000">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtComapnyAddress1"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Company Address1">
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/State"
+                            android:textColor="#000000">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtCompanyState"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/State">
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/City"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtCompanyCity"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/City"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/PinCode"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/loanquerydata_txtCompanyPincode"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="@string/PinCode">
+
+                        </TextView>
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

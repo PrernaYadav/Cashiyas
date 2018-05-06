@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "817812079064",
+    "firebase_url": "https://cashiya-1470738081665.firebaseio.com",
+    "project_id": "cashiya-1470738081665",
+    "storage_bucket": "cashiya-1470738081665.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817812079064:android:988aa62ca4df0473",
+        "android_client_info": {
+          "package_name": "com.bounside.mj.cashiya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817812079064-llvp6e73kppfr6iof65dj7eiuejo4t6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

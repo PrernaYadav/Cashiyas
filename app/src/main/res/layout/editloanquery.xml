@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/general"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayout1edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:stretchColumns="0,1">
+
+
+
+                    <TableRow
+                        android:id="@+id/tableRow1edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView1edit"
+                            android:layout_column="0"
+                            android:text="Name"
+                            android:layout_width="150dp"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvnameedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="name"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow2edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView2edit"
+                            android:layout_column="0"
+                            android:textColor="#000000"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="Email Id"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvmailedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="email"
+                            android:paddingLeft="7dp"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView3edit"
+                            android:layout_column="0"
+                            android:text="Contact No"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvcontactedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="contact"
+                            android:paddingLeft="7dp"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow109edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView109edit"
+                            android:layout_column="0"
+                            android:text="DOB"
+                            android:layout_width="150dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            android:paddingLeft="7dp"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvdobedit"
+                            android:layout_column="1"
+                            android:text="DOB"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView4edit"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Monthly Income"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            android:paddingLeft="7dp"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvincome_loanedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="income"
+                            android:paddingLeft="7dp"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow116edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView126edit"
+                            android:layout_column="0"
+                            android:text="Bank Account Type"
+                            android:layout_width="150dp"
+                            android:textColor="#000000"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvsalstmedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="yes"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow5edit"
+                        android:layout_width="fill_parent"
+                        android:background="@drawable/cell_shape"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView5edit"
+                            android:layout_column="0"
+                            android:text="Bank account"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvaccountedit"
+                            android:layout_column="1"
+                            android:text="salary account"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow9edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView9edit"
+                            android:layout_column="0"
+                            android:text="Residence"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvresidenceedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="city"
+                            android:paddingLeft="7dp"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow10edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView10edit"
+                            android:layout_column="0"
+                            android:text="Employment"
+                            android:layout_width="150dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            android:paddingLeft="7dp"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvemploymentedit"
+                            android:layout_column="1"
+                            android:text="employment"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow791edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView912edit"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Pan Card No."
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvpanedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:text="pan"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+
+
+                    <TableRow
+                        android:id="@+id/tableRow191edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView212edit"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="AdharCard No."
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvadharedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:text="emi"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+
+                </TableLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Loan Infomation"
+                    android:textColor="@color/primary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayout2edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:stretchColumns="0,1">
+
+                    <TableRow
+                        android:id="@+id/tableRow6edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView6edit"
+                            android:layout_column="0"
+                            android:text="Loan Type"
+                            android:paddingLeft="7dp"
+                            android:layout_width="150dp"
+                            android:textColor="#000000"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvloanedit"
+                            android:layout_column="1"
+                            android:text="loan type"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            ></EditText>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow161edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView161edit"
+                            android:layout_column="0"
+                            android:text="Subcatory of Loan "
+                            android:paddingLeft="7dp"
+                            android:layout_width="150dp"
+                            android:textColor="#000000"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvsubcategoryedit"
+                            android:layout_column="1"
+                            android:text="Subcatory of Loan"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            ></EditText>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow7edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView7edit"
+                            android:layout_column="0"
+                            android:text=" Loan Amount"
+                            android:layout_width="150dp"
+                            android:textColor="#000000"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvloanamountedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:text="amount"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow8edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView8edit"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Time Period"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvtimeedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="time"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Loan Replacement"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvhaveloan_satusedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="yes"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+                    <!--<TableRow-->
+
+                        <!--android:layout_width="fill_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--&gt;-->
+
+                        <!--<TextView-->
+
+                            <!--android:layout_column="0"-->
+                            <!--android:layout_width="150dp"-->
+                            <!--android:text="Pay Emi"-->
+                            <!--android:paddingLeft="7dp"-->
+                            <!--android:background="@drawable/cell_shape"-->
+                            <!--android:textColor="#000000"-->
+                            <!--&gt;-->
+
+                        <!--</TextView>-->
+
+                        <!--<EditText-->
+                            <!--android:id="@+id/pay_emiviewedit"-->
+                            <!--android:layout_column="1"-->
+                            <!--android:layout_width="150dp"-->
+                            <!--android:paddingLeft="7dp"-->
+                            <!--android:background="@drawable/cell_shape"-->
+                            <!--android:text="yes"-->
+                            <!--&gt;-->
+
+                        <!--</EditText>-->
+
+                    <!--</TableRow>-->
+
+                    <TableRow
+                        android:id="@+id/tableRow19edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView21edit"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Emi Amount"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvemiedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:text="emi"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            /////////////////////////////have loan////////////////////////////////////////
+
+
+            <LinearLayout
+                android:id="@+id/view_haveloanlayedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:stretchColumns="0,1">
+
+                    <TableRow
+                        android:id="@+id/tableRow18edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView18edit"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Have Loan"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvhaveloanedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="yes"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+
+                            android:layout_column="0"
+                            android:text="From Where"
+                            android:paddingLeft="7dp"
+                            android:layout_width="150dp"
+                            android:textColor="#000000"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/viewhaveloan_whereedit"
+                            android:layout_column="1"
+                            android:text="loan type"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            ></EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+
+                            android:layout_column="0"
+                            android:text="Amount"
+                            android:paddingLeft="7dp"
+                            android:layout_width="150dp"
+                            android:textColor="#000000"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/viewhaveloan_amntedit"
+                            android:layout_column="1"
+                            android:text="loan type"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            ></EditText>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+
+                            android:layout_column="0"
+                            android:text="Loan Tenure"
+                            android:paddingLeft="7dp"
+                            android:layout_width="150dp"
+                            android:textColor="#000000"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/viewhaveloan_tenureedit"
+                            android:layout_column="1"
+                            android:text="loan type"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            ></EditText>
+
+                    </TableRow>
+
+                </TableLayout>
+            </LinearLayout>
+            /////////////////////////////////////////////////////////////////////
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ID's and Proofs"
+                    android:textColor="@color/primary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayout3edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1">
+
+                    <TableRow
+                        android:id="@+id/tableRow11edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/textView11edit"
+                            android:layout_column="0"
+                            android:text="Id Proof"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvidedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="yes"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow12edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView12edit"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Address Proof"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvaddprfedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:text="yes"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow13edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView13edit"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Income Proof"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvincomprfedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:text="yes"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow14edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView14edit"
+                            android:layout_column="0"
+                            android:text="Office Add. Proof"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvofcadprfedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="yes"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow15edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView15edit"
+                            android:layout_column="0"
+                            android:text="Bank Statements"
+                            android:layout_width="150dp"
+                            android:textColor="#000000"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvbankstatedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="yes"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow16edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView16edit"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Ownership Office"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvowneredit"
+                            android:layout_column="1"
+                            android:paddingLeft="7dp"
+                            android:layout_width="150dp"
+                            android:background="@drawable/cell_shape"
+                            android:text="yes"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow17edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView17edit"
+                            android:layout_column="0"
+                            android:layout_width="150dp"
+                            android:text="Business Continuity"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            android:textColor="#000000"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/tvbusnconedit"
+                            android:layout_column="1"
+                            android:layout_width="150dp"
+                            android:text="yes"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/cell_shape"
+                            >
+
+                        </EditText>
+
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/button_submitedit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/primary"
+                    android:textColor="#ffffff"
+                    android:text="Ok"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

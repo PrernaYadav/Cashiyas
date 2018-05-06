@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/general"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tableLayout1_insurancequery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1">
+
+                    <TableRow
+                        android:id="@+id/tableRow_insurancequery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_insurancequery"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Insurance Type"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvservice_insurancequery"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow1_insurancequery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv1_insurancequery"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Name"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvnameins_insurancequery"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp">
+
+                        </TextView>
+
+                    </TableRow>
+
+
+
+
+                    <TableRow
+                        android:id="@+id/tableRow2_insurancequery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv2_insurancequery"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Email Id"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvmailins_insurancequery"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp">
+
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3_insurancequery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv3_insurancequery"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Contact No."
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvcontactins_insurancequery"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp">
+
+                        </TextView>
+
+                    </TableRow>
+
+
+
+
+                    <TableRow
+                        android:id="@+id/tableRow8_insurancequery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/insurance_query_data"
+                            android:layout_width="150dp"
+                            android:layout_column="0"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp"
+                            android:text="Date"
+                            android:textColor="#000000">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvdate_insurancequery"
+                            android:layout_width="150dp"
+                            android:layout_column="1"
+                            android:background="@drawable/cell_shape"
+                            android:paddingLeft="7dp">
+
+                        </TextView>
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Cashiya</string>
+    <string name="general">General Information</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="action_settings">Settings</string>
+    <string name="YourMoney">Your Money</string>
+    <string name="InvestmentPlaning">Investment Planing</string>
+    <string name="AllPaymentAndRecharge">All Payments And Recharge</string>
+    <string name="Loan">Loan</string>
+    <string name="LoanTransFer">Loan Transfer</string>
+    <string name="Insurance">Insurance</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Selectthetypeofloan">Select the type of loan</string>
+    <string name="MaritalStatus">Marital Status</string>
+    <string name="Single">Single</string>
+    <string name="AadhaarCardNumber">Aadhaar Card Number</string>
+    <string name="Married">Married</string>
+    <string name="PanCardNumber">Pan Card Number</string>
+    <string name="DOB">Date Of Birth</string>
+    <string name="CurrentAddress">Current Address</string>
+    <string name="Address">Address</string>
+    <string name="Address1">Address1</string>
+    <string name="State">State</string>
+    <string name="City">City</string>
+    <string name="PinCode">Pin Code</string>
+    <string name="Male">Male</string>
+    <string name="Gender">Gender</string>
+    <string name="Female">Female</string>
+    <string name="ResidenceType">Residence Type</string>
+    <string name="Rented">Rented</string>
+    <string name="Owned">Owned</string>
+    <string name="IfPermanentAdressisSameAs">Is Permanent Address is same As Current address:</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="PermanentAddress">Permanent Address</string>
+    <string name="CurrentlyEmployedas">Currently Employed as</string>
+    <string name="Salaried">Salaried</string>
+    <string name="SelfEmployed">Self Employed</string>
+    <string name="Proceed">Proceed</string>
+    <string name="CompanyName">Company Name</string>
+    <string name="TypeOfCompany">Type Of Company</string>
+    <string name="Position">Position</string>
+    <string name="CompanyAddress">Company Address</string>
+    <string name="JoiningDateWithCurrentCompany">Joining Date With Current Company</string>
+    <string name="JoiningDate">Joining Date</string>
+    <string name="TotalExperience">Total Experience</string>
+    <string name="Year">Year</string>
+    <string name="Month">Month</string>
+    <string name="AnyProof">Any Proof</string>
+    <string name="SalarySlip">Salary Slip</string>
+    <string name="AccountStatement">Account Statement</string>
+    <string name="CompanyEstablishedDate">Company Established Date</string>
+    <string name="ITR">ITR</string>
+    <string name="RegistrationCertificate">Registration Certificate</string>
+    <string name="PanCard">Pan Card</string>
+    <string name="Qualification">Qualification</string>
+    <string name="MonthlyIncome">Monthly Income</string>
+    <string name="AccountType">Account Type</string>
+    <string name="HaveContinuityofbusiness">Have Continuity of business?</string>
+    <string name="HaveYoutakenLoaninPast">Have You taken Loan in Past?</string>
+    <string name="FromWhere">From Where</string>
+    <string name="Amount">Amount</string>
+    <string name="LoanTenure">Loan Tenure</string>
+    <string name="EMIDOYOUTOPAY">how much EMI do you pay</string>
+    <string name="Current">Current</string>
+    <string name="Permanent">Permanent</string>
+    <string name="Office">Office</string>
+    <string name="Submit">Submit</string>
+    <string name="MobileNo.">Mobile No.</string>
+    <string name="Email">Email</string>
+
+
+    <string name="AddMoney">Add Expense</string>
+    <string name="AddIncome">Add Income</string>
+    <string name="MyTarget">My Target</string>
+
+
+    <string name="LoanBalanceTransfer">Loan Balance Transfer</string>
+    <string name="ExistingLoanStart">Existing Loan Start</string>
+    <string name="Foregddmmyyyy">dd/mm/yyyy</string>
+    <string name="OutstandingAmount">Outstanding Amount</string>\
+    <string name="InterestRatintermso">Interest Rate(in terms of %)</string>
+    <string name="ExistingLoanBank">Existing Loan Bank</string>
+    <string name="GrossMonthlyIncome">Gross Monthly Income</string>
+    <string name="NetIncome">Net Income</string>
+    <string name="Name">Name</string>
+    <string name="EnterPhoneNumber">Enter Phone Number</string>
+
+
+    <string name="typeOfProperty">Type Of Property</string>
+    <string name="PropertyAdress">Property Address</string>
+    <string name="resale">Resale</string>
+    <string name="Builder">Builder</string>
+    <string name="UnderConstruction">Under Construction</string>
+    <string name="readyToMove">Ready To Move</string>
+    <string name="Verified">Verified</string>
+    <string name="Unverified">Unverified</string>
+    <string name="banking_partners"><![CDATA[<< Banking Partners >>]]></string>
+    <string name="insurance_partners"><![CDATA[<< Insurance Partners >>]]></string>
+    <string name="how_long_do_you_want_to_borrow_for_in_months">How long do you want to borrow for? (in months)</string>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "86054816028",
+    "project_id": "cashiya-147111"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86054816028:android:988aa62ca4df0473",
+        "android_client_info": {
+          "package_name": "com.bounside.mj.cashiya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86054816028-a0075c8c9vjk88r4qn2u7sloe2r2g0kn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bounside.mj.cashiya",
+            "certificate_hash": "6AD9E370C85F89717BE1E9FF0786862958AC4B53"
+          }
+        },
+        {
+          "client_id": "86054816028-7mms4jqm08lve5vgf2hh9gv804grk83q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTF9MKZNMw38BNo3CXCxu887lyt6hgfCs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

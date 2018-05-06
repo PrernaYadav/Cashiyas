@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chartbank"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/monthtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cell_shape"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:text="Total Credited"
+            android:textColor="@color/primary"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1">
+
+            <TableRow
+                android:id="@+id/tr1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_column="0"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="7dp"
+                    android:paddingStart="7dp"
+                    android:text="Total Credited"
+                    android:textColor="#000000">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/monthtextcredited"
+                    android:layout_width="150dp"
+                    android:layout_column="1"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="7dp"
+                    android:paddingStart="7dp"
+                    android:text=""
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tr2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_column="0"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="7dp"
+                    android:text="Total Debited"
+                    android:textColor="#000000">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/monthtextdebited"
+                    android:layout_width="150dp"
+                    android:layout_column="1"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="7dp"
+                    android:text=""
+                    android:textColor="#000000"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tr3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_column="0"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="7dp"
+                    android:text="Total Saving"
+                    android:textColor="#000000">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/monthtextsave"
+                    android:layout_width="150dp"
+                    android:layout_column="1"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="7dp"
+                    android:text=""
+                    android:textColor="#000000"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/tr4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_column="0"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="7dp"
+                    android:text="Extra Expense"
+                    android:textColor="#000000">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/monthtextextra"
+                    android:layout_width="150dp"
+                    android:layout_column="1"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="7dp"
+                    android:text=""
+                    android:textColor="#000000"/>
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

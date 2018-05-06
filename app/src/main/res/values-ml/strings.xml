@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cashiya</string>
+    <string name="general">General Information</string>
+    <string name="typeOfProperty">Type Of Property</string>
+    <string name="PropertyAdress">Property Adress</string>
+    <string name="resale">Resale</string>
+    <string name="Builder">Builder</string>
+    <string name="UnderConstruction">Under Construction</string>
+    <string name="readyToMove">Ready To Move</string>
+    <string name="Verified">Verified</string>
+    <string name="Unverified">Unverified</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="action_settings">Settings</string>
+    <string name="YourMoney">"നിങ്ങളുടെ പണം"</string>
+    <string name="InvestmentPlaning">നിക്ഷേപം ആസൂത്രണ</string>
+    <string name="AllPaymentAndRecharge">"എല്ലാവരുടേയും റീചാർജ്ജ്"</string>
+    <string name="Loan">വായ്പ</string>
+    <string name="LoanTransFer">വായ്പ ട്രാൻസ്ഫർ</string>
+    <string name="Insurance">ഇൻഷുറൻസ്</string>
+    <string name="FirstName">പേരിന്റെ ആദ്യഭാഗം</string>
+    <string name="LastName">പേരിന്റെ അവസാന ഭാഗം</string>
+    <string name="Selectthetypeofloan">വായ്പയെടുത്ത് തരം തിരഞ്ഞെടുക്കുക</string>
+    <string name="MaritalStatus">വൈവാഹിക നില</string>
+    <string name="Single">സിംഗിൾ</string>
+    <string name="AadhaarCardNumber">ആധാർ കാർഡ് നമ്പർ</string>
+    <string name="Married">വിവാഹിതനായ</string>
+    <string name="PanCardNumber">പാൻ കാർഡ് നമ്പർ</string>
+    <string name="DOB">ജനിച്ച ദിവസം</string>
+    <string name="CurrentAddress">നിലവിലെ വിലാസം</string>
+    <string name="Address">വിലാസ ലൈൻ </string>
+    <string name="Address1">വിലാസ ലൈൻ 1</string>
+    <string name="State">അവസ്ഥ</string>
+    <string name="City">നഗരം</string>
+    <string name="PinCode">പിൻ കോഡ്</string>
+    <string name="Male">ആൺ</string>
+    <string name="Gender">പുരുഷൻ</string>
+    <string name="Female">പെണ്</string>
+    <string name="ResidenceType">റസിഡൻസ് ഇനം</string>
+    <string name="Rented">വാടകയ്ക്കെടുത്തു</string>
+    <string name="Owned">ഉടമസ്ഥതയിലുള്ളത്</string>
+    <string name="IfPermanentAdressisSameAs">പെർമനന്റ് നിണ്ടതാണ് നിലവിൽ വിലാസം തന്നെയാണ് എങ്കിൽ:</string>
+    <string name="Yes">അതെ</string>
+    <string name="No">ഇല്ല</string>
+    <string name="PermanentAddress">സ്ഥിര വിലാസം</string>
+    <string name="CurrentlyEmployedas">നിലവിൽ ജോലിയിൽ</string>
+    <string name="Salaried">ശമ്പളം</string>
+    <string name="SelfEmployed">സ്വയം തൊഴിൽ ചെയ്യുന്നയാൾ</string>
+    <string name="Proceed">മുന്നോട്ട്</string>
+    <string name="CompanyName">കമ്പനി പേര്</string>
+    <string name="TypeOfCompany">കമ്പനിയുടെ തരം</string>
+    <string name="Position">സ്ഥാനം</string>
+    <string name="CompanyAddress">കമ്പനിയുടെ വിലാസം</string>
+    <string name="JoiningDateWithCurrentCompany">നിലവിലെ കമ്പനിയുമായി തീയതി ചേരുന്നത്</string>
+    <string name="JoiningDate">തീയതി ചേരുന്നത്</string>
+    <string name="TotalExperience">മൊത്തം അനുഭവം</string>
+    <string name="Year">വര്ഷം</string>
+    <string name="Month">മാസം</string>
+    <string name="AnyProof">ഏതെങ്കിലും തെളിവ്</string>
+    <string name="SalarySlip">ശമ്പളം സ്ലിപ്പ്</string>
+    <string name="AccountStatement">അക്കൗണ്ട് സ്റ്റേറ്റ്മെന്റ്</string>
+    <string name="CompanyEstablishedDate">കമ്പനി സ്ഥാപിച്ചശേഷം തീയതി</string>
+    <string name="ITR">ഐടിആർ</string>
+    <string name="RegistrationCertificate">രജിസ്ട്രേഷൻ സർട്ടിഫിക്കറ്റ്</string>
+    <string name="PanCard">പാൻ കാർഡ് നമ്പർ</string>
+    <string name="Qualification">യോഗത</string>
+    <string name="MonthlyIncome">പ്രതിമാസ വരുമാനം</string>
+    <string name="AccountType">അക്കൗണ്ട് തരം</string>
+    <string name="HaveContinuityofbusiness">ബിസിനസ്സ് തുടര്ച്ച ഉണ്ടോ?</string>
+    <string name="HaveYoutakenLoaninPast">മുമ്പ് വായ്പാ വാങ്ങിയിട്ടുണ്ടോ?</string>
+    <string name="FromWhere">എവിടെനിന്ന്</string>
+    <string name="Amount">തുക</string>
+    <string name="LoanTenure">ലോൺ അധികാരകാലം</string>
+    <string name="EMIDOYOUTOPAY">എത്ര ഇഎംഐ നിന്നോ അടയ്ക്കും</string>
+    <string name="Current">നിലവിൽ</string>
+    <string name="Permanent">സ്ഥിരമായ</string>
+    <string name="Office">ഓഫീസ്</string>
+    <string name="Submit">സമർപ്പിക്കുക</string>
+
+    <string name="Email">"ഇമെയിൽ"</string>
+
+
+    <string name="MobileNo.">മൊബൈൽ നമ്പർ</string>
+
+
+    <string name="AddMoney">മണി ചേർക്കുക</string>
+    <string name="AddIncome">ആദായ ചേർക്കുക</string>
+    <string name="MyTarget"> എന്റെ ടാർഗെറ്റ്</string>
+
+
+
+
+    <string name="LoanBalanceTransfer">ലോൺ ബാലൻസ് ട്രാൻസ്ഫർ</string>
+    <string name="ExistingLoanStart">നിലവിലുള്ള ലോൺ ആരംഭിക്കുക</string>
+    <string name="Foregddmmyyyy">ഉദാഹരണത്തിന്. DD / MM / YYYY</string>
+    <string name="OutstandingAmount">Outstanding Amountകുടിശ്ശികയായ തുക</string>
+    <string name="InterestRatintermso">പലിശ നിരക്ക് (% കാര്യത്തിൽ)</string>
+    <string name="ExistingLoanBank">നിലവിലുള്ള ലോൺ ബാങ്ക്</string>
+    <string name="GrossMonthlyIncome">മൊത്ത പ്രതിമാസ വരുമാനം</string>
+    <string name="NetIncome">അറ്റാദായം</string>
+    <string name="Name">പേര്</string>
+    <string name="EnterPhoneNumber">ഫോൺ നമ്പർ നൽകുക</string>
+
+    <string name="banking_partners"><![CDATA[<< ബാങ്കിങ് പങ്കാളികൾ >>]]></string>
+    <string name="insurance_partners"><![CDATA[<< ഇൻഷുറൻസ് പങ്കാളികൾ >>]]></string>
+    <string name="how_long_do_you_want_to_borrow_for_in_months">നിങ്ങൾ എത്രത്തോളം വായ്പ ആഗ്രഹിക്കുന്നത്? (മാസങ്ങൾക്കുള്ളിൽ)</string>
+</resources>
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/income"
+            android:icon="@drawable/incomedrawer"
+            android:title="Income"/>
+
+        <item
+            android:id="@+id/monthly"
+            android:icon="@drawable/monthsave"
+            android:title="Savings" />
+
+        <item
+            android:id="@+id/calcsave"
+            android:icon="@drawable/calculator"
+            android:title="Calculators"/>
+
+        <item
+            android:id="@+id/leadsmains"
+            android:icon="@drawable/leads"
+            android:visible="false"
+            android:title="Leads" />
+
+        <item
+            android:id="@+id/summaryaccnt"
+            android:icon="@drawable/summary"
+            android:title="Account's Summary" />
+
+        <item
+            android:id="@+id/importmsg"
+            android:icon="@drawable/leads"
+            android:title="Reprocess SMS" />
+
+
+        <!--<item-->
+        <!--android:id="@+id/reminder"-->
+        <!--android:icon="@drawable/reminder"-->
+        <!--android:title="Reminders" />-->
+
+        <!--//  <item-->
+        <!--android:id="@+id/sp_register"-->
+        <!--android:icon="@drawable/account"-->
+        <!--android:title="Service Provider" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/salaryaccount"-->
+            <!--android:icon="@drawable/totalspends"-->
+            <!--android:title="Salary Account" />-->
+
+
+
+
+
+
+        <item
+            android:id="@+id/terms"
+            android:icon="@drawable/conditionterm"
+            android:title="Terms and Conditions" />
+        <item
+            android:id="@+id/privacy"
+            android:icon="@drawable/privacypolicy"
+            android:title="Privacy and Policy" />
+
+    </group>
+
+    <item android:title="Your Queries">
+        <menu>
+            <item
+                android:id="@+id/query_list"
+                android:icon="@drawable/loanquery_icon"
+                android:title="Your Queries" />
+
+            <item
+                android:id="@+id/ratecas_nav"
+                android:icon="@drawable/rating_app"
+                android:title="Like And Rate Cashiya" />
+
+        </menu>
+    </item>
+
+</menu>
